@@ -13,6 +13,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    /* overflow: hidden; */
 }
 
 .subtitle{
@@ -460,19 +461,27 @@ body{
 
                     @media screen and (max-width:400px) {
                         .presentacion3{
-                            margin-top: auto;
+                            /* margin-top: auto; */
                             /* background: salmon; */
+                            /* margin-bottom: 5px; */
+                            display: flex;
+                            flex-direction: column;
+    
                         }
                         .item_presentacion .img_presentacion3{
-                            /* margin-top: 195px; */
-                            height: auto;
-                            margin-left:1px;
+                            /* margin-top: 395px; */
+                            /* height: auto; */
+                            margin-top: 50px;
+                            margin-left:20px;
                         }
                         .item_presentacion .info_presentacion3{
-                             margin-top: 195px;
+                             /* margin-top: -55px; */
+                             margin-bottom: 80px;
                              font-size: 12px;
                         }
                     }
+
+                   
 
                /*fin de presentacion3*/ 
 
