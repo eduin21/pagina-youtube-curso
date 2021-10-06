@@ -444,7 +444,8 @@
 
     .nav a:hover{
         color: darkgrey;
-        background: #1f1f1f;
+        background: #706f6f;
+        width: 100%;
     }
 
     .nav.active{
